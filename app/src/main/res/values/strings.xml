@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SocialMedia</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="log">Log In</string>
+    <string name="regi">Register</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="password">Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="discovery">Discovery</string>
+    <string name="what_s_new_today">WHAT\'S NEW TODAY</string>
+    <string name="browse_all">BROWSE ALL</string>
+    <string name="see_more">See More</string>
+    <string name="search">Search</string>
+    <string name="search_all_photos">Search All Photos</string>
+    <string name="anushka_mishra">Anushka Mishra</string>
+</resources>
