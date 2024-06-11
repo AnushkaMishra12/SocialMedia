@@ -17,15 +17,12 @@ import java.util.ArrayList;
 
 public class HomeFragment extends Fragment {
 
-
     public HomeFragment() {
-
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
