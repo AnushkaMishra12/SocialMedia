@@ -59,5 +59,19 @@ public class Constant {
         list.add(data6);
         return list;
     }
+    public static ArrayList<ContactData> getContactData() {
+        ArrayList<ContactData> list = new ArrayList<>();
+        ContactData data = new ContactData(R.drawable.img_2,"jane");
+        list.add(data);
+        ContactData data1 = new ContactData(R.drawable.img_3,"William");
+        list.add(data1);
+        ContactData data2 = new ContactData(R.drawable.img_4,"ken");
+        list.add(data2);
+        ContactData data3 = new ContactData(R.drawable.img_5,"leo");
+        list.add(data3);
+        ContactData data4 = new ContactData(R.drawable.img_6,"rosy");
+        list.add(data4);
+        return list;
+    }
 
 }

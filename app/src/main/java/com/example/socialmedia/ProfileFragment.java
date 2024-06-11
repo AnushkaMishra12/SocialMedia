@@ -2,6 +2,7 @@ package com.example.socialmedia;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -35,7 +36,7 @@ public class ProfileFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_profile, container, false);
     }
         @Override
-        public void onViewCreated(View view, Bundle savedInstanceState){
+        public void onViewCreated(@NonNull View view, Bundle savedInstanceState){
             super.onViewCreated(view, savedInstanceState);
 
             RecyclerView recyclerView = view.findViewById(R.id.profile_recycler);

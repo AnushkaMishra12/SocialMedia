@@ -4,6 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -20,7 +22,7 @@ public class SearchFragment extends Fragment {
     }
 
         @Override
-        public void onViewCreated(View view, Bundle savedInstanceState){
+        public void onViewCreated(@NonNull View view, Bundle savedInstanceState){
             super.onViewCreated(view, savedInstanceState);
 
             RecyclerView recyclerView = view.findViewById(R.id.search_recycler_view);

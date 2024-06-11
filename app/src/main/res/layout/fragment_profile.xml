@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:padding="10dp"
-                android:text="Jane"
+                android:text="@string/jane"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -51,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="textile co."
+                android:text="@string/textile_co"
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
@@ -63,7 +63,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="FOLLOW JANE"
+                android:text="@string/follow_jane"
                 android:textColor="@drawable/button_text" />
 
             <com.google.android.material.button.MaterialButton
@@ -72,7 +72,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="MESSAGE"
+                android:text="@string/message"
                 android:textColor="@drawable/button_text" />
 
 
