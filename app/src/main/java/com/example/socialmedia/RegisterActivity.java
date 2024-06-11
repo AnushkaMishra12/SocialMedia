@@ -2,9 +2,9 @@ package com.example.socialmedia;
 
 import android.os.Bundle;
 import android.view.Window;
-import android.widget.Toolbar;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 public class RegisterActivity extends AppCompatActivity {
     Toolbar back;
