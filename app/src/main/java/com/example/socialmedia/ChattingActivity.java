@@ -2,7 +2,6 @@ package com.example.socialmedia;
 
 import android.os.Bundle;
 import android.view.Window;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 

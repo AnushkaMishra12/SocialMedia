@@ -10,7 +10,8 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class DashBoardActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
+public class DashBoardActivity extends AppCompatActivity implements
+        BottomNavigationView.OnNavigationItemSelectedListener {
     BottomNavigationView bottomNavigationView;
     CoordinatorLayout coordinatorLayout;
 
@@ -18,14 +19,16 @@ public class DashBoardActivity extends AppCompatActivity implements BottomNaviga
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dash_board);
-         Window window=getWindow();
-         window.setBackgroundDrawableResource(R.color.white);
+
+        Window window = getWindow();
+        window.setBackgroundDrawableResource(R.color.white);
         coordinatorLayout = findViewById(R.id.fragment_container);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.mHome);
 
     }
+
     HomeFragment firstFragment = new HomeFragment();
     ProfileFragment profileFragment = new ProfileFragment();
     SearchFragment searchFragment = new SearchFragment();
@@ -60,8 +63,6 @@ public class DashBoardActivity extends AppCompatActivity implements BottomNaviga
                         .commit();
                 return true;
         }
-
-
         return false;
     }
 }

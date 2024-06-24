@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Window w = getWindow();
         w.addFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         w.addFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION);

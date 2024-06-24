@@ -5,21 +5,26 @@
         android:id="@+id/mHome"
         android:icon="@drawable/home"
         android:title="" />
+
     <item
         android:id="@+id/mSearch"
         android:icon="@drawable/search"
         android:title="" />
+
     <item
         android:id="@+id/fab"
         android:title=""
-        android:enabled="false"/>
+        android:enabled="false"
+       />
 
     <item
         android:id="@+id/mChat"
         android:icon="@drawable/chat"
         android:title="" />
+
     <item
         android:id="@+id/mProfile"
         android:icon="@drawable/account"
         android:title="" />
+
 </menu>

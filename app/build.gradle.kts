@@ -37,4 +37,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+    implementation (libs.glide)
+    annotationProcessor (libs.compiler)
+    implementation (libs.subsampling.scale.image.view)
+    implementation(libs.picasso)
+
 }

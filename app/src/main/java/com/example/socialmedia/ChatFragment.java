@@ -19,7 +19,6 @@ import java.util.ArrayList;
 public class ChatFragment extends Fragment {
 
     public ChatFragment() {
-
     }
 
 
