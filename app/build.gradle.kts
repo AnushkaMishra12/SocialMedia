@@ -29,7 +29,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
@@ -43,5 +42,6 @@ dependencies {
     annotationProcessor (libs.compiler)
     implementation (libs.subsampling.scale.image.view)
     implementation(libs.picasso)
-
+    implementation (libs.core)
+    implementation (libs.work.runtime)
 }
